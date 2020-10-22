@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Marina, happy birthday!");
+            Console.WriteLine($"Hello Marina, 2 + 2 is {add(2,2)}");
         }
         static int add(int a, int b) {
             return a + b;
